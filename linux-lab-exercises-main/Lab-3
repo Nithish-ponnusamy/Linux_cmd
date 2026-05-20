@@ -1,0 +1,39 @@
+# 🐧 Linux Practice – File Viewing and Editing Commands
+
+## Topic
+vi, cat, less, more, head, tail
+
+## Practice Exercises
+
+1. Create a new file named `notes.txt` using the vi editor.
+2. Open `notes.txt` in vi and write at least five lines of text.
+3. Save the file and exit the vi editor.
+4. Reopen `notes.txt` using vi.
+5. Edit one existing line in the file.
+6. Save the changes and exit.
+
+7. Display the complete contents of `notes.txt` using the cat command.
+8. Display the contents of `notes.txt` with line numbers.
+9. Create another file named `data.txt` with multiple lines of text.
+10. Display both `notes.txt` and `data.txt` together using a single command.
+
+11. View the contents of `notes.txt` using the more command.
+12. Scroll through `notes.txt` using the less command.
+13. Exit from the less command after viewing the file.
+
+14. Display the first 5 lines of `notes.txt`.
+15. Display the first 10 lines of `notes.txt`.
+
+16. Display the last 5 lines of `notes.txt`.
+17. Display the last 10 lines of `notes.txt`.
+
+18. Add more lines of text to `notes.txt` using the vi editor.
+19. View only the last few lines of `notes.txt` after the update.
+20. Observe the difference between head and tail commands.
+
+21. View a large file using more and navigate through it.
+22. View the same file using less and compare the behavior.
+23. Identify one advantage of using less over more.
+
+24. Display a specific number of lines from the beginning of a file.
+25. Display a specific number of lines from the end of a file.

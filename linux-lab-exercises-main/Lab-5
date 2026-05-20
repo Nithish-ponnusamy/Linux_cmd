@@ -1,0 +1,58 @@
+## PART 1: User and Group Management
+
+### Tasks
+
+1. Create a group named `projectteam`.
+2. Create a user named `leader`.
+3. Create three users named `member1`, `member2`, and `member3`.
+4. Add the `leader` user to the `projectteam` group.
+5. Add all three members to the `projectteam` group.
+6. Verify that all users belong to the correct group.
+
+---
+
+## PART 2: Project Directory Setup
+
+### Tasks
+
+7. Create a directory named `projectdata`.
+8. Change the group ownership of `projectdata` to `projectteam`.
+9. Set permissions so that:
+   - Only the leader and team members can access the directory
+   - Other users cannot access the directory
+10. Ensure group members can create and modify files inside `projectdata`.
+11. Verify directory permissions and ownership.
+
+---
+
+## PART 3: File Access Control
+
+### Tasks
+
+12. Create a file named `teaminfo.txt` inside `projectdata`.
+13. Set permissions so only the `projectteam` group can read and modify the file.
+14. Verify file permissions.
+15. Test file access using one team member.
+16. Test file access using a user who is not part of the group.
+
+---
+
+## PART 4: Symbolic Link Requirement
+
+### Tasks
+
+17. Identify a file present inside the `projectdata` directory.
+18. Create a symbolic link of this file in the **home directory of the leader**.
+19. Create symbolic links of the same file in the **home directories of all team members**.
+20. Verify that each symbolic link points to the correct source file.
+
+---
+
+## PART 5: Verification and Observation
+
+### Tasks
+
+21. Check inode numbers of the original file and the symbolic link.
+22. Modify the original file and observe the changes through the symbolic link.
+23. Remove the original file and observe the behavior of the symbolic link.
+24. Recreate the original file and observe the link status.

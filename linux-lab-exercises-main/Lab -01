@@ -1,0 +1,150 @@
+# 🐧 Linux Lab Manual
+
+## Topic
+Basic Linux Commands Practice
+
+## Level
+Beginner / Fundamentals
+
+##Commands Covered
+- su
+- useradd
+- mkdir
+- touch
+- cd
+- ls
+- ls -l
+- rmdir
+- rm
+- rm -r
+- rm -rf
+
+---
+
+## LAB 1: User Management using `useradd` and `su`
+
+### Objective
+To create users and switch between users in Linux.
+
+### Tasks
+1. Log in as the root user.
+2. Create a user named `student`.
+3. Verify that the user `student` exists in the system.
+4. Switch from root to the `student` user.
+5. Verify the currently logged-in user.
+6. Exit from the `student` user.
+7. Exit from the root user.
+
+---
+
+## LAB 2: Directory Creation using `mkdir`
+
+### Objective
+To create directories using the `mkdir` command.
+
+### Tasks
+1. Create a directory named `dir1`.
+2. Create multiple directories `dir2`, `dir3`, and `dir4` using a single command.
+3. Create directories named `docs`, `images`, and `videos`.
+4. List all created directories.
+5. Try creating a directory that already exists and observe the result.
+
+---
+
+## LAB 3: File Creation using `touch`
+
+### Objective
+To create files using the `touch` command.
+
+### Tasks
+1. Create a file named `file1.txt`.
+2. Create multiple files `file2.txt`, `file3.txt`, and `file4.txt` using one command.
+3. Create files named `log1`, `log2`, and `log3`.
+4. Update the timestamp of `file1.txt`.
+5. Verify the files created.
+
+---
+
+## LAB 4: Directory Navigation using `cd`
+
+### Objective
+To navigate directories using the `cd` command.
+
+### Tasks
+1. Change directory to the home directory.
+2. Change directory to `/home`.
+3. Change directory to `/etc`.
+4. Return to the previous directory.
+5. Move one directory up from the current directory.
+
+---
+
+## LAB 5: Listing Files using `ls` and `ls -l`
+
+### Objective
+To list files and directories in Linux.
+
+### Tasks
+1. List files and directories in the current directory.
+2. List files of the `/etc` directory.
+3. List all files including hidden files.
+4. Display files in detailed format.
+5. Identify file permissions, owner, and size from the output.
+
+---
+
+## LAB 6: Removing Empty Directories using `rmdir`
+
+### Objective
+To remove empty directories.
+
+### Tasks
+1. Create an empty directory named `emptydir`.
+2. Remove the directory `emptydir`.
+3. Create two empty directories `test1` and `test2`.
+4. Remove both directories using a single command.
+5. Try removing a non-empty directory using `rmdir` and observe the result.
+
+---
+
+## LAB 7: File Deletion using `rm`
+
+### Objective
+To delete files using the `rm` command.
+
+### Tasks
+1. Create a file named `oldfile.txt`.
+2. Remove the file `oldfile.txt`.
+3. Remove multiple files `file2.txt` and `file3.txt` using one command.
+4. Try removing a directory using only `rm` and observe the result.
+
+---
+
+## LAB 8: Directory Deletion using `rm -r` and `rm -rf`
+
+### Objective
+To remove directories containing files.
+
+### Tasks
+1. Create a directory named `mydir`.
+2. Create files inside `mydir`.
+3. Remove `mydir` using a recursive delete command.
+4. Create a directory named `danger`.
+5. Remove the `danger` directory forcefully.
+6. Observe the difference between normal and forceful deletion.
+
+---
+
+## LAB 9: Mixed Practice Lab
+
+### Objective
+To practice multiple Linux commands together.
+
+### Tasks
+1. Create a user named `linuxuser`.
+2. Switch to `linuxuser`.
+3. Create directories `work`, `test`, and `demo`.
+4. Inside `work`, create files `a.txt`, `b.txt`, and `c.txt`.
+5. List the files in detailed format.
+6. Remove the files created.
+7. Remove the `work` directory.

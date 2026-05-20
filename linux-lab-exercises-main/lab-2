@@ -1,0 +1,117 @@
+# 🐧 Linux Lab Manual – Paths and File Commands
+
+## Topic
+Absolute Path, Relative Path, cp, mv, cat, echo
+
+## Level
+Beginner
+
+## Commands Covered
+- Absolute Path
+- Relative Path
+- cp
+- mv
+- cat
+- echo
+
+---
+
+## LAB 10: Understanding Absolute and Relative Paths
+
+### Objective
+To understand and differentiate between absolute and relative paths in Linux.
+
+### Tasks
+1. Identify the absolute path of your home directory.
+2. Navigate to a directory using its absolute path.
+3. Navigate to the same directory using a relative path.
+4. Move back to the home directory using a relative path.
+5. Observe the difference between absolute and relative paths.
+6. Write down one example of an absolute path.
+7. Write down one example of a relative path.
+
+---
+
+## LAB 11: File Copy using `cp` Command
+
+### Objective
+To copy files and directories using the `cp` command.
+
+### Tasks
+1. Create a file named `file1.txt`.
+2. Copy `file1.txt` to a file named `file1_backup.txt`.
+3. Create a directory named `data`.
+4. Copy `file1.txt` into the `data` directory.
+5. Create another directory named `backup`.
+6. Copy the entire `data` directory into `backup`.
+7. Verify that the copied files and directories exist.
+
+---
+
+## LAB 12: File and Directory Move using `mv` Command
+
+### Objective
+To move and rename files and directories using the `mv` command.
+
+### Tasks
+1. Create a file named `oldname.txt`.
+2. Rename `oldname.txt` to `newname.txt`.
+3. Create a directory named `docs`.
+4. Move `newname.txt` into the `docs` directory.
+5. Create a directory named `archive`.
+6. Move the `docs` directory into `archive`.
+7. Verify the new location of files and directories.
+
+---
+
+## LAB 13: Display File Content using `cat` Command
+
+### Objective
+To display and view file contents using the `cat` command.
+
+### Tasks
+1. Create a file named `info.txt`.
+2. Add text content to `info.txt`.
+3. Display the content of `info.txt` on the terminal.
+4. Create another file named `info2.txt`.
+5. Display the contents of both files together.
+6. Observe how `cat` displays file content.
+
+---
+
+## LAB 14: Text Output using `echo` Command
+
+### Objective
+To display text and write text into files using the `echo` command.
+
+### Tasks
+1. Display a simple message on the terminal using `echo`.
+2. Write a message into a file named `msg.txt`.
+3. Add another line of text to `msg.txt`.
+4. Display the contents of `msg.txt`.
+5. Overwrite the content of `msg.txt` with a new message.
+6. Verify the updated content of the file.
+
+---
+
+## LAB 15: Mixed Practice – Paths and File Commands
+
+### Objective
+To practice absolute paths, relative paths, and file commands together.
+
+### Tasks
+1. Create a directory named `project`.
+2. Inside `project`, create a file named `readme.txt`.
+3. Navigate to `project` using an absolute path.
+4. Navigate back using a relative path.
+5. Copy `readme.txt` to another file.
+6. Rename the copied file.
+7. Display the contents of the file.
+8. Add text to the file using `echo`.
+
+---
+
+## Lab Rules
+- Do not modify system files.
+- Practice only inside your home directory.
+- Verify paths before copying or moving files.

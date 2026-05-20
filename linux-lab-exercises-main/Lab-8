@@ -1,0 +1,42 @@
+## 🧠 Section 1: Process Listing (`ps -ef`)
+
+1. Display all running processes using `ps -ef`.
+2. Identify the PID of your current shell process.
+3. Identify the PPID of a running process.
+4. Find a process started by the root user.
+5. Count the total number of running processes.
+6. Identify the command name of a process using its PID.
+7. Redirect the output of `ps -ef` to a file.
+8. Filter the process list for a specific user.
+9. Filter the process list for a specific PID.
+10. Verify whether a particular process is running.
+
+---
+
+## 📊 Section 2: Process Monitoring with `top`
+
+11. Start the `top` command.
+12. Identify the PID column in the `top` output.
+13. Identify the USER field in `top`.
+14. Identify the `%CPU` field in `top`.
+15. Identify the `%MEM` field in `top`.
+16. Identify the `TIME+` field in `top`.
+17. Identify the `COMMAND` field in `top`.
+18. Identify the process consuming the highest CPU.
+19. Identify the process consuming the highest memory.
+20. Exit safely from the `top` command.
+
+---
+
+## ⚙️ Section 3: CPU Load and Signals
+
+21. Run a `seq` command to generate numbers.
+22. Run `seq` in a way that consumes CPU continuously.
+23. Observe CPU usage of `seq` using `top`.
+24. Identify the PID of the running `seq` process.
+25. Stop the `seq` process using signal 15.
+26. Verify whether the process stopped gracefully.
+27. Restart the `seq` process.
+28. Stop the process forcefully using signal 9.
+29. Pause a running process using signal 19.
+30. Verify the process state after sending signal 19.

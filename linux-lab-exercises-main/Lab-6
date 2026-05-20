@@ -1,0 +1,62 @@
+ PART 1: gzip – File Compression
+
+### Tasks
+
+1. Create a text file named `logfile.txt`.
+2. Add some content to `logfile.txt`.
+3. Compress `logfile.txt` using gzip.
+4. Verify that the original file is replaced with a compressed file.
+5. Check the file size before and after compression.
+6. Decompress the gzip file and restore the original file.
+7. Verify the contents after decompression.
+
+---
+
+## PART 2: Multiple File Handling with gzip
+
+### Tasks
+
+8. Create three files named `file1.txt`, `file2.txt`, and `file3.txt`.
+9. Compress each file using gzip.
+10. Verify that each file is compressed individually.
+11. Decompress all compressed files.
+12. Confirm that all original files are restored.
+
+---
+
+## PART 3: zip – File and Directory Compression
+
+### Tasks
+
+13. Create a directory named `project`.
+14. Create multiple files inside the `project` directory.
+15. Compress the `project` directory into a zip file.
+16. Verify that the zip file is created successfully.
+17. List the contents of the zip file without extracting it.
+18. Extract the zip file into a new directory.
+19. Verify the extracted files and directories.
+
+---
+
+## PART 4: tar – Archiving Files
+
+### Tasks
+
+20. Create a directory named `backupdata`.
+21. Create files inside the `backupdata` directory.
+22. Create a tar archive of the `backupdata` directory.
+23. Verify that the tar archive is created.
+24. List the contents of the tar archive.
+25. Extract the tar archive into a new location.
+26. Verify the extracted data.
+
+---
+
+## PART 5: tar with Compression (Real-Time Backup Scenario)
+
+### Tasks
+
+27. Create a compressed tar archive of the `backupdata` directory.
+28. Verify the size difference between normal tar and compressed tar.
+29. Extract the compressed tar archive.
+30. Verify file integrity after extraction.

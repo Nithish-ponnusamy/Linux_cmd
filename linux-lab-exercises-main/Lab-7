@@ -1,0 +1,69 @@
+## PART 1: Process Monitoring using `top`
+
+### Scenario
+An administrator needs to monitor system performance and running processes.
+
+### Tasks
+
+1. Display all running processes using a process monitoring tool.
+2. Identify the process with the highest CPU usage.
+3. Identify the process with the highest memory usage.
+4. Observe the PID, USER, CPU%, and MEM% columns.
+5. Sort processes based on CPU usage.
+6. Sort processes based on memory usage.
+7. Identify system load average values.
+8. Exit the process monitoring screen.
+9. Reopen the monitoring tool and verify changes.
+10. Record observations.
+
+---
+
+## PART 2: Process Priority and Nice Value
+
+### Scenario
+Some processes should run with **lower priority** so they do not affect system performance.
+
+### Tasks
+
+11. Create a process that runs for a long time.
+12. Check the default nice value of the process.
+13. Start a process with a custom nice value.
+14. Verify the nice value of the newly started process.
+15. Identify the difference between default and custom nice values.
+16. Change the nice value of a running process.
+17. Verify the updated priority.
+18. Observe how priority affects CPU usage.
+19. Record observations.
+20. Exit the process safely.
+
+---
+
+## PART 3: Renicing a Running Process
+
+### Scenario
+A running process is consuming excessive CPU and needs priority adjustment.
+
+### Tasks
+
+21. Identify the PID of a running process.
+22. Check the current nice value of the process.
+23. Change the nice value of the running process.
+24. Verify the updated nice value.
+25. Observe system behavior after priority change.
+
+---
+
+## PART 4: Process Termination using `kill`
+
+### Scenario
+A process becomes unresponsive and must be terminated.
+
+### Tasks
+
+26. Identify a running process to terminate.
+27. Terminate the process using a normal signal.
+28. Verify that the process has stopped.
+29. Start another long-running process.
+30. Terminate the process using a forceful signal.
+31. Verify process termination.
+32. Observe the difference between normal and forceful termination.

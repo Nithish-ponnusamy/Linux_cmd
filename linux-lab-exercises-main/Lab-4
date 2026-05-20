@@ -1,0 +1,78 @@
+# Linux User & Group Administration – Practice Tasks
+---
+
+## 🟡 Task 1: User Creation & Verification
+
+1. Create three normal users: `dev1`, `dev2`, `dev3`.
+2. Assign different UIDs to each user starting from `1101`.
+3. Set `/bin/bash` as the login shell for all users.
+4. Verify the UID, GID, home directory, and shell of each user.
+
+---
+
+## 🔐 Task 2: Password Policy Enforcement
+
+5. Set passwords for all three users.
+6. Force all users to change their password at first login.
+7. Configure minimum password age of **5 days** for `dev1`.
+8. Configure maximum password age of **30 days** for `dev2`.
+9. Configure password warning period of **7 days** for `dev3`.
+10. Verify password aging details for all users.
+
+---
+
+## 👥 Task 3: Group Management
+
+11. Create two groups: `developers` and `testers`.
+12. Set `developers` as the primary group for `dev1` and `dev2`.
+13. Add `dev3` to both `developers` and `testers`.
+14. Verify group membership of all users.
+15. Change the primary group of `dev3` to `testers`.
+
+---
+
+## ⏳ Task 4: Account Control
+
+16. Lock the account of `dev2`.
+17. Verify that `dev2` account is locked.
+18. Unlock the account of `dev2`.
+19. Set an account expiry date for `dev3`.
+20. Verify the account expiry date.
+
+---
+
+## 🧾 Task 5: User Modification
+
+21. Change the comment field of `dev1` to **Senior Developer**.
+22. Rename the user `dev1` to `dev_lead`.
+23. Verify that the UID remains unchanged after renaming.
+24. Change the home directory of `dev_lead`.
+25. Verify the new home directory.
+
+---
+
+## 🔍 Task 6: Login & Audit
+
+26. Check currently logged-in users.
+27. Verify the last password change date for `dev3`.
+28. Identify which users are currently locked.
+
+---
+
+## 🗑 Task 7: Cleanup & Verification
+
+29. Remove `dev2` from the `developers` group.
+30. Delete the user `dev2` **without removing** the home directory.
+31. Verify that `dev2` no longer exists.
+32. Delete the user `dev3` **along with** the home directory.
+33. Verify that the home directory is removed.
+
+---
+
+## 🧠 Task 8: System Inspection
+
+34. List all users with UID **≥ 1000**.
+35. Identify system users from `/etc/passwd`.
+36. Check which users have `/bin/bash` as their login shell.
+37. Verify group details of `developers`.
+38. Cross-check `/etc/passwd`, `/etc/shadow`, and `/etc/group` for consistency.
